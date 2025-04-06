@@ -52,4 +52,5 @@ tools/code_to_raw
 
 # Mac extended attributes
 .DS_Store
-/.vs
+
+build
