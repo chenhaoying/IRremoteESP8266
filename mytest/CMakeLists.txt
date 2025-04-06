@@ -11,8 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../src)
 
-# Add a global macro definition for UNIT_TEST
-add_definitions(-DUNIT_TEST)
+add_definitions(-DUNIT_TEST -DDEBUG)
 
 # Add the static library
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../src ${CMAKE_BINARY_DIR}/src)
